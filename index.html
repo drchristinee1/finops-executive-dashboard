@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FinOps Executive Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <header class="hero">
+      <h1>FinOps Executive Dashboard</h1>
+      <p class="subtitle">
+        A leadership view of cloud cost behavior, optimization decisions, and accountability.
+      </p>
+    </header>
+
+    <section class="kpi-grid">
+      <div class="card kpi">
+        <h2>Forecasted Cost</h2>
+        <p class="kpi-value" id="forecastedCost">$10,560</p>
+      </div>
+
+      <div class="card kpi">
+        <h2>Cost per Transaction</h2>
+        <p class="kpi-value" id="costPerTransaction">$0.009183</p>
+      </div>
+
+      <div class="card kpi">
+        <h2>Commitment Recommendation</h2>
+        <p class="kpi-value" id="commitmentRecommendation">80% RI</p>
+      </div>
+
+      <div class="card kpi">
+        <h2>Payments Team Cost</h2>
+        <p class="kpi-value" id="paymentsCost">$6,250</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Forecasting Summary</h2>
+      <p><strong>Projected Transactions:</strong> 1,150,000</p>
+      <p><strong>Projected Total Cost:</strong> $10,560.40</p>
+      <p><strong>Cost per Transaction:</strong> $0.009183</p>
+    </section>
+
+    <section class="card">
+      <h2>Commitment Strategy</h2>
+      <p><strong>Recommended Strategy:</strong> Reserved Instances</p>
+      <p><strong>Coverage Level:</strong> 80%</p>
+      <p><strong>Projected Savings:</strong> $45,200</p>
+      <p><strong>Risk Exposure:</strong> $0</p>
+    </section>
+
+    <section class="card">
+      <h2>Cost Allocation & Showback</h2>
+      <p><strong>Payments Team:</strong> $6,250</p>
+      <p><strong>Analytics Team:</strong> $3,750</p>
+      <p><strong>Shared Cost Allocation:</strong> Distributed proportionally by direct cost share</p>
+    </section>
+
+    <section class="card">
+      <h2>Operating Model View</h2>
+      <div class="flow">
+        <span>Forecast</span>
+        <span>→</span>
+        <span>Decide</span>
+        <span>→</span>
+        <span>Allocate</span>
+        <span>→</span>
+        <span>Act</span>
+      </div>
+      <p class="note">
+        Cloud cost should be managed as an operating model: forecast demand, optimize decisions, assign ownership, and drive action.
+      </p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
